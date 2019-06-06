@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "watapp",
+      "public": "dist/watapp",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

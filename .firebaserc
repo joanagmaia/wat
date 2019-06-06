@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "watproject-1234a": {
+      "hosting": {
+        "watapp": [
+          "watproject-1234a"
+        ]
+      }
+    }
+  }
+}
