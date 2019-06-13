@@ -1,0 +1,21 @@
+<div class="page-container">
+  <div class="form-container flex-center">
+<form [formGroup]="registerForm">
+  <mat-form-field appearance="outline">
+    <mat-label>Email</mat-label>
+    <input matInput placeholder="Place you email here" formControlName="email" type="email">
+  </mat-form-field>
+  <mat-form-field appearance="outline">
+    <mat-label>Password</mat-label>
+    <input matInput placeholder="Place you email here" formControlName="password" type="password">
+  </mat-form-field>
+  <!-- <label class="error">{{errorMessage}}</label> -->
+  <!-- <label class="success">{{successMessage}}</label> -->
+  <button type="submit">Sign in</button>
+  <button type="submit">Sign in with Google</button>
+</form>
+</div>
+<div class="image-section flex-center">
+  <p>WAT</p>
+</div>
+</div>
