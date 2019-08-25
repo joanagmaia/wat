@@ -1,0 +1,54 @@
+@import '../../../assets/scss/variables.scss';
+
+.menu {
+  background-color: $primary;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 64px;
+  height: 100%;
+  z-index: 1;
+
+  & div {
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & img {
+      width: 24px;
+    }
+  }
+}
+
+a {
+  background-color: $primary;
+
+  &.active {
+    background-color: $primary-selected;
+  }
+
+  &:hover {
+    background-color: $primary-hover;
+  }
+}
+
+.logo {
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, $primary, $button);
+  background-size: 600% 600%;
+  animation: Gradient 3s ease infinite;
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+
+  50% {
+    background-position: 60% 50%
+  }
+
+  100% {
+    background-position: 0% 50%
+  }
+}

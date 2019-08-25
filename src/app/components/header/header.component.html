@@ -1,0 +1,9 @@
+<nav class="header">
+  <div class="elements">
+      <a class="menu-items" *ngFor="let item of menuItem">{{ item }}</a>
+  </div>
+  <div class="elements">
+      <p><span>{{ username }}</span> if you're tired just</p>
+      <a (click)="logout()" class="logout">Logout</a>
+  </div>
+</nav>
