@@ -11,15 +11,10 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireStorageModule } from '@angular/fire/storage';
 import { AngularFireAuthModule } from '@angular/fire/auth';
-import { SheetComponent } from './portal/expenses/sheet/sheet.component';
-import { MenuComponent } from './components/menu/menu.component';
-import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    MenuComponent,
-    HeaderComponent
+    AppComponent
   ],
   imports: [
     AppRoutingModule,

@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SheetComponent implements OnInit {
 
+  menuItems = ['Expenses'];
+
   constructor() { }
 
   ngOnInit() {
